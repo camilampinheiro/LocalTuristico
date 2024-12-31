@@ -1,7 +1,11 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     font-family: "Open Sans", serif;
+    color: #333333;
 }
 
 body {
@@ -17,6 +21,35 @@ body {
 #headline {
     color: #E1624F;
     font-weight: bold;
+    font-size: 16px;
+    margin-top: 64px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+h2 + p {
+    margin-bottom: 64px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin-bottom: 4px;
 }
 
 img {
@@ -26,6 +59,9 @@ img {
 #subtitle {
     font-style: italic;
     text-align: center;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 
 .divider {
@@ -35,10 +71,51 @@ img {
     background-color: #d9d9d9;
 }
 
+#imgList {
+    margin-bottom: 20px;
+}
+
+#paragraph {
+    font-size: 16px;
+}
+
 #text {
     text-align: center;
+    font-size: 16px;
 }
+
+#strong {
+    font-weight: bold;
+}
+
+ul li {
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#hist {
+    color: #0C51A7;
+    margin-bottom: 48px;
+}
+
+#casais {
+    color: #591B98;
+}
+
+#familia {
+    color: #E5245E;
+}
+
+#orcamento {
+    color: #E95E10;
+}
+
+ul li::marker {
+    color: #333333;
+}
+
 
 footer {
     text-align: center;
+    margin-bottom: 40px;
 }
